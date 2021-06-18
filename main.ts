@@ -2,6 +2,7 @@ let Number2 = 0
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     Number2 = randint(1, 20)
+    // This is a digital copy of the toy that tells your fortune.
     if (Number2 == 1) {
         basic.showString("It Is Certain")
     } else if (Number2 == 2) {
